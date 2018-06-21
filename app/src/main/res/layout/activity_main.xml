@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.test.MainActivity">
+
+
+    <com.example.administrator.test.AutoRollLayout
+        android:id="@+id/arl_viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp" />
+
+
+    <com.example.administrator.test.MyGridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:background="#ededed"
+        android:gravity="fill"
+        android:horizontalSpacing="1dp"
+        android:listSelector="#ededed"
+        android:numColumns="4"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="1dp" />
+</LinearLayout>
